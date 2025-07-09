@@ -1,42 +1,80 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>关于</title>
-    <style>
-        /* 这里可以添加自定义的CSS样式 */
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jingwei Li (李经纬)</title>
+  <style>
+    body {
+      max-width: 800px;
+      margin: 40px auto;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      padding: 0 20px;
+    }
+    img.profile {
+      display: block;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+    }
+    h1, h2 {
+      border-bottom: 1px solid #e1e4e8;
+      padding-bottom: 0.3em;
+      margin-top: 1.5em;
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 0.5em;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>随机汉字</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">关于</a></li>
-                <li><a href="#projects">项目</a></li>
-                <li><a href="#contact">联系</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- 头像 -->
+  <img class="profile" src="images/profile.jpg" alt="Profile Picture">
+  
+  <!-- 个人信息 -->
+  <h1>Jingwei Li (李经纬)</h1>
+  <p>IIIS, Tsinghua University</p>
+  <p>Email: <a href="mailto:ljw22@mails.tsinghua.edu.cn">ljw22 [at] mails.tsinghua.edu.cn</a></p>
+  <p><a href="https://scholar.google.com/citations?user=..." target="_blank">Google Scholar</a></p>
 
-    <section id="about">
-        <h2>关于</h2>
-        <p>这是一些随机的汉字内容，您可以根据需要进行替换。</p>
-    </section>
+  <!-- 关于我 -->
+  <h2>About Me</h2>
+  <p>I am a PhD student at the <a href="https://iiis.tsinghua.edu.cn" target="_blank">Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University</a>, advised by Professor <a href="https://sites.google.com/view/jingzhao-zhang" target="_blank">Jingzhao Zhang</a>. Previously, I received my B.S. degree in Mathematics from Tsinghua University in 2022.</p>
 
-    <section id="projects">
-        <h2>项目</h2>
-        <p>这是一些随机的汉字内容，您可以根据需要进行替换。</p>
-    </section>
+  <!-- 研究兴趣 -->
+  <h2>Research Interests</h2>
+  <p>My research lies at the intersection of theoretical and applied machine learning. On the theoretical side, I am interested in establishing provable guarantees for neural network generalization and control theory. On the applied side, my focus is on downstream tasks of diffusion models, such as image editing and membership inference attacks.</p>
 
-    <section id="contact">
-        <h2>联系</h2>
-        <p>这是一些随机的汉字内容，您可以根据需要进行替换。</p>
-    </section>
+  <!-- 发表论文 -->
+  <h2>Publications</h2>
+  <ul>
+    <li>* Towards black-box membership inference attack for diffusion models — ICML 2025 (<a href="https://arxiv.org/abs/..." target="_blank">arXiv</a>)</li>
+    <li>* Understanding Nonlinear Implicit Bias via Region Counts in Input Space — ICML 2025 (<a href="https://arxiv.org/abs/..." target="_blank">arXiv</a>)</li>
+    <li>* MutualNeRF: Improve the Performance of NeRF under Limited Samples with Mutual Information Theory — UAI 2025 (<a href="https://arxiv.org/abs/..." target="_blank">arXiv</a>)</li>
+    <li>* Online Control with Adversarial Disturbance for Continuous-time Linear Systems — NeurIPS 2024 (<a href="https://arxiv.org/abs/..." target="_blank">arXiv</a>)</li>
+    <li>* Online Policy Optimization for Robust Markov Decision Process — UAI 2024 (<a href="https://arxiv.org/abs/..." target="_blank">arXiv</a>)</li>
+    <li>* Iteratively learn diverse strategies with state distance information — NeurIPS 2023 (<a href="https://arxiv.org/abs/..." target="_blank">arXiv</a>)</li>
+  </ul>
 
-    <footer>
-        <p>版权所有 &copy; 2023 随机汉字</p>
-    </footer>
+  <!-- 预印本 -->
+  <h2>Preprints</h2>
+  <ul>
+    <li>Finite Sample Analyses for Continuous-time Linear Systems: System Identification and Online Control — (<a href="https://arxiv.org/abs/..." target="_blank">arXiv</a>)</li>
+  </ul>
 </body>
 </html>
+
